@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Questrial&family=Roboto&display=swap');
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  background: url(home/phpcrud/img/bg1.JPG);
+}
+
+h1 {
+  text-align: center;
+  /*ketebalan font*/
+  font-weight: 300;
+}
+
+.tulisan_login {
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+}
+
+.kotak_login {
+  width: 350px;
+  background: white;
+  /*meletakkan form ke tengah*/
+  margin: 80px auto;
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+cursor: pointer;
+  background: #9F8772;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+.link {
+  color: blue;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+p a{
+  color: black;
+  text-decoration: none;
+}
